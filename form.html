@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Sonya Pathania</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <form action="results.html" method="get"> 
+            <h1>Which Self Care Activity Should You Do Right Now?</h1>
+            <div class="intro">
+                <p>Sometimes we forget to take care of ourselves as much as we should. Based on your responses to these questions, we will choose a self-care activity for you to enjoy!</p>
+            </div>
+            <div>
+                <label for="fname">What is your name?</label>
+                <input type="text" id="fname" name="fname" required>    
+            </div>
+            
+            <div>
+                <label for="sleep">How many hours of sleep did you get last night?</label>
+                <input type="text" id="sleep" name="sleep" required>    
+            </div>
+
+            <div>
+                <label for="moods">How do you feel?</label>
+                <select name="moods" id="moods" >
+                    <option value="blank" >    </option>
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="tired">Tired</option>
+                    <option value="normal">Normal</option>
+                    <option value="none">None of the Above</option>
+                </select>
+            </div>
+
+            <div>
+                <p>How stressed do you feel right now?</p>
+                <input type="radio" id="none" name="stress" value="none" required>
+                <label for="none">None</label>
+
+                <input type="radio" id="mildly" name="stress" value="mildly">
+                <label for="mildly">Mildly</label>
+
+                <input type="radio" id="moderately" name="stress" value="moderately">
+                <label for="moderately">Moderately</label>
+                
+                <input type="radio" id="very" name="stress" value="very">
+                <label for="very">Very</label>
+
+                <input type="radio" id="super" name="stress" value="super">
+                <label for="super">I'M SO STRESSED RIGHT NOW</label>
+            </div>
+
+            <div>
+                <p>What's your favorite sense out of the 5?</p>
+                <input type="radio" id="touch" name="senses" value="touch" required>
+                <label for="touch">Touch</label>
+
+                <input type="radio" id="smell" name="senses" value="smell">
+                <label for="smell">Smell</label>
+
+                <input type="radio" id="taste" name="senses" value="taste">
+                <label for="taste">Taste</label>
+                
+                <input type="radio" id="hearing" name="senses" value="hearing">
+                <label for="hearing">Hearing</label>
+
+                <input type="radio" id="sight" name="senses" value="sight">
+                <label for="sight">Sight</label>
+            </div>
+
+            <div>
+                <p>When's the last time you enjoyed nature?</p>
+                <input type="radio" id="today" name="outside" value="today" required>
+                <label for="today">Today</label>
+
+                <input type="radio" id="yesterday" name="outside" value="yesterday">
+                <label for="yesterday">Yesterday</label>
+
+                <input type="radio" id="week" name="outside" value="week">
+                <label for="week">Less Than A Week Ago</label>
+                
+                <input type="radio" id="longer" name="outside" value="longer">
+                <label for="longer"> Longer Than a Week Ago</label>
+            </div>
+            
+            <div>
+                <p>Which adjective would you use to describe yourself?</p>
+                
+                <input type="radio" id="exciteable" name="adj" value="exciteable" required>
+                <label for="exciteable">Exciteable</label>
+                
+                <input type="radio" id="calm" name="adj" value="calm">
+                <label for="calm">Calm</label>
+
+                <input type="radio" id="neutral" name="adj" value="neutral">
+                <label for="neutral">Neutral</label>
+
+                <input type="radio" id="bored" name="adj" value="bored">
+                <label for="bored">Bored of this Quiz (yawn)</label>
+            </div>
+
+            <div>
+                <p>Do you like hello kitty?</p>
+                <input type="radio" id="yess" name="hk" value="yess" required>
+                <label for="yess">YESSSSSSSS</label>
+
+                <input type="radio" id="yes" name="hk" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="hk" value="no">
+                <label for="no">No</label>
+
+                <input type="radio" id="stupid" name="hk" value="stupid">
+                <label for="stupid">This Question Is Stupid</label>
+
+            </div>
+
+            <div>    
+                <input id="submit" type="submit" value="Submit">
+            </div>
+
+    </body>
+    </head>
+</html>
